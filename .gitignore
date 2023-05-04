@@ -12,3 +12,8 @@ manual/libcaf_core
 manual/libcaf_io
 manual/libcaf_openssl
 release.txt
+
+# SSE
+.vscode
+.idea
+_rez_build
