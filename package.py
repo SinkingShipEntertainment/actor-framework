@@ -38,5 +38,7 @@ def pre_build_commands():
 def commands():
     env.REZ_ACTOR_FRAMEWORK_ROOT = '{root}'
 
+    env.LD_LIBRARY_PATH.append("{root}/lib64")
+
 uuid = 'repository.actor-framework'
 
